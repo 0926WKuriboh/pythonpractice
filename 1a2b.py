@@ -1,4 +1,13 @@
-#!/usr/bin/env python
+def abab(string) :
+    a=0
+    b=0
+    for n in range(4):
+        if int(string[n]) == answer[n]:
+            a+=1
+        elif int(string[n]) in answer :
+            b+=1
+    print(a,"a",b,"b")
+    return a #!/usr/bin/env python
 # coding: utf-8
 
 # In[55]:
