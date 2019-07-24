@@ -16,7 +16,8 @@
 首先會在0~9 的整數中 隨機挑出不重複的四個數字 放在陣列裡
 
 ***
-ˋˋˋpython
+
+ˋ``python
 import random 
 list = [n for n in range(10)]
 answer = random.sample(list,4)
@@ -30,7 +31,8 @@ print(answer)
 如果不符合 則在確認 輸入的數字是否有和答案中陣列的元素相符 有則 b + 1 
 
 ***
-ˋˋˋpython
+
+ˋˋˋ python
  def abab(string) :
     a=0
     b=0    
@@ -42,6 +44,7 @@ print(answer)
     print(a,"a",b,"b")
     return a 
 ˋˋˋ
+
 ***
 
 ##執行介面
