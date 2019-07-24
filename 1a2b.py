@@ -22,14 +22,5 @@ while(abab(guess) != 4):
 print("恭喜！！")
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
 
 
